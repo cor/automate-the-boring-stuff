@@ -3,6 +3,7 @@ my_inventory = {'gold coin': 42, 'rope': 1}
 
 def display_inventory(inventory):
     """Display an inventory"""
+    print('Inventory:')
     for k, v in inventory.items():
         print(f'{v} {k}')
     print(f'Total number of items: {sum(inventory.values())}')
